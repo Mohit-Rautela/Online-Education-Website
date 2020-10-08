@@ -6,9 +6,7 @@
 	
 
 }
-body{
-	min-height: 150vh;
-}
+
 
 header{
     background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("images/7.jpg");
@@ -17,13 +15,21 @@ header{
 	background-position: center;
 	background-attachment: fixed;
 	clip-path: circle(180vh at 50% -80vh);
+	background-color: black;
+	
 		
 
 }
+
+
 ul{
 	list-style-type: none;
 	float: right;
 	margin-top: 20px;
+	
+}
+ul .nav justify-content-end{
+	background-color: black;
 	
 }
 ul li{
@@ -37,13 +43,12 @@ ul li a{
 	cursor: pointer;
 	
 	
+	
 }
+
 ul li a:hover{
 	border-bottom: 2px solid #db0a40;
 	color: white;
-	
-	
-	
 	
 }
 ul li.active a{
